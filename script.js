@@ -18,11 +18,8 @@ document.getElementById('bmiForm').addEventListener('submit', function(event) {
             category = 'Normal weight';
         } else if (bmi >= 25 && bmi <= 29.9) {
             category = 'Overweight';
-        } 
-        else if (bmi >= 30 && bmi <= 34.9) {
-            category = 'Obesity';
         } else {
-            category = 'Extreme Obesity';
+            category = 'Obesity';
         }
 
         // Display the result
